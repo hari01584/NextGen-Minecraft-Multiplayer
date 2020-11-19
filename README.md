@@ -1,6 +1,6 @@
 # NextGen Minecraft Multiplayer
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status](https://travis-ci.org/svg/svgo.svg?branch=master)]()
 
 NextGen Minecraft Multiplayer Is A Lightweight Bootstrap Made Solely In Python, It Aims To Allow Minecraft-ers To Play With Each Other In Lobby Style Without Giving Money In Realms!! (Basically A Type Of Free Lobby System)
 
