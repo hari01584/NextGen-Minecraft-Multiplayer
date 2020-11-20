@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/svg/svgo.svg?branch=master)]()
 
+
+
 NextGen Minecraft Multiplayer Is A Lightweight Bootstrap Made Solely In Python, It Aims To Allow Minecraft-ers To Play With Each Other In Lobby Style Without Giving Money In Realms!! (Basically A Type Of Free Lobby System)
 
   - Will Allow Multiplayer Without Expending Money
@@ -29,14 +31,23 @@ NextGen Minecraft Multiplayer Tries To Implement Lobby Like Multiplayer For Mine
 
 ### Installation
 
-###### AS OF NOW THERES NO VERSION OUT, BECAUSE THE APP IS NOT COMPLETED AT ALL, I BARELY MADE ENOUGH TO BRODCAST THE SERVERS TO LAN BUT IT AINT COMPLETE AT ALL, SO LOOKING FOR DEVS TO CARRY ON THIS WORK!!
+###### AS OF NOW THERES NO VERSION OUT, BECAUSE THE APP IS NOT COMPLETED AT ALL, I BARELY MADE ENOUGH TO BRODCAST THE SERVERS TO LAN BUT IT AINT COMPLETE AT ALL, SO LOOKING FOR DEVS TO CARRY ON THIS WORK!! (*[Development](#development)*)
+
+### Demo
+
+[![NextGenM](http://img.youtube.com/vi/1YnERI6kEy4/0.jpg)](http://www.youtube.com/watch?v=1YnERI6kEy4)
+
+##### [This](https://youtu.be/1YnERI6kEy4) Video Shows The Full Features/Functions Which Are Working As Of Now, Please Take A Look For Easy Understanding.. Note That Connection And Multiplayer Aint Working, Right Now The Program Is Merely Brodcasting Custom Made Server To LAN Of Client.
+Jump to *[Development](#development)* Section Know How To Contribute Here!!
+
+
 
 ### How To Use / Implement
 
 *Well, Well, If You Made This Far Then I Must Say This Project Piqued Your Interests, So Look Below To Know How To Install&Run Demo Version Of This Program And Test Out The Existing Features Yourself!!*
 
 Download/Clone This Repo From Github And Extract It, Find A File Called **run.py** , Open It In IDLE And Run IT!!
-
+Jump to *[Development](#development)* Section Know How To Contribute Here!!
 ### Development
 
 **Now Here Comes The Important Part!**
@@ -56,6 +67,7 @@ We are in dire need for developers who can work on this half-assed project and c
  - **Brodcasting Local Server To LAN In Minecraft.**
  - *Creating Algoritms To Brodcast Server And Lobby Like System TO Allow Other Players TO Connect.*
  
+*Alternatively You Can Jump To *[demo](#demo)* Section To See Current Progress In Youtube Video..!!*
 License
 ----
 
@@ -82,8 +94,6 @@ GPLv3
 
 
    [dill]: <https://github.com/hari01584/r>
-   [git-repo-url]: <https://github.com/hari01584/pyUDPpunch.git>
-   [df1]: <https://en.wikipedia.org/wiki/UDP_hole_punching>
  
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
