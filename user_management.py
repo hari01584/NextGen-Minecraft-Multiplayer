@@ -19,14 +19,14 @@ def logon():
         while True:
             x = int(input("[-] Enter Command:"))
             if(x==1):
-                #username = input("[-] Enter Your Username:")
-                #email = input("[-] Enter Your Email:")
-                #passw = input("[-] Enter Your Password:")
+                username = input("[-] Enter Your Username:")
+                email = input("[-] Enter Your Email:")
+                passw = input("[-] Enter Your Password:")
 
 
-                username="Agornageee"
-                email="hari01584@gmail.com"
-                passw="notyeardad"
+                #username="Agornageee"
+                #email="hari01584@gmail.com"
+                #passw="notyeardad"
                 payload = simple_data_dump({'username': username,'email': email,'password': salt(email,passw)})
                 x = requests.post(API_URL_REGISTER, data = payload)
                 print(parse_message(x.text)[1])
@@ -34,8 +34,8 @@ def logon():
                     print("[-] Login Using Second Command Now Below :)")
                 
             elif(x==2):
-                #email = input("[-] Enter Your Email:")
-                #passw = input("[-] Enter Your Password:")
+                email = input("[-] Enter Your Email:")
+                passw = input("[-] Enter Your Password:")
                 
                 email="hari01584@gmail.com"
                 passw="notyeardad"
