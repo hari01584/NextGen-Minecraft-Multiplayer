@@ -36,11 +36,15 @@ def mc_bdcast(serverData):
             continue
     BrodcastSock.close()
 
-    Host_Name = serverData['server_name']
-    MC_V = serverData['server_mcv']
-    Host_Id = serverData['host_id']
-    ConnEctedP = serverData['players']
+    #Host_Name = serverData['server_name']
+    #MC_V = serverData['server_mcv']
+    #Host_Id = serverData['host_id']
+    #ConnEctedP = serverData['players']
 
+    Host_Id = 5
+    MC_V = "1.16.4"
+    ConnEctedP = 3
+    Host_Name = "BABBBBB"    
 
     hexr = "1c0000000000000001000000000000000100ffff00fefefefefdfdfdfd12345678"
     MOTD_S = "MCPE;{};407;{};{};8;11041970697130618450;{};Creative;1;51797;51798;".format("Host "+str(Host_Id)+" Server!",MC_V,ConnEctedP,Host_Name)
@@ -64,5 +68,5 @@ def mc_bdcast(serverData):
             msgFromServer = UDPClientSocket.recv(bufferSize).hex()
             msg = "Message from Server {}".format(msgFromServer)
             print(msg)
-        except socket.timeout:
+        except Exception:
             continue
